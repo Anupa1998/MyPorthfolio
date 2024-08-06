@@ -6,6 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
+import img from '../../assets/My.png'
 
 const FirstSection = () => {
   return (
@@ -47,7 +48,7 @@ const FirstSection = () => {
             </div>
             
             <div className='w-1/2  flex justify-center items-center'>
-              <img src="src\assets\My.png" className='rounded-full max-w-80 bg-[#0ef]  custom-glow' alt="" />
+              <img src={img} className='rounded-full max-w-80 bg-[#0ef]  custom-glow' alt="" />
             </div>
     </div>
   )
