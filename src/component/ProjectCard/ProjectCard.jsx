@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-
+import img from '../../assets/Screenshot (53).png'
 import '../ProjectCard/ProjectCardStyles.css'
 import { HiOutlineExternalLink } from "react-icons/hi";
 
 function ProjectCard() {
   const [showDescription, setShowDescription] = useState(false);
-
+  
   return (
     <div className=' lg:max-w-96 w-96 bg-slate-950 card relative me-8 main'>
         <img src={img} alt="" className=' w-full' />
