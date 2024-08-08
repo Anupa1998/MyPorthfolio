@@ -1,5 +1,4 @@
 import React from 'react'
-import img from "../../assets/test.png"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
