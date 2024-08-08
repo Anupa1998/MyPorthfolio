@@ -1,0 +1,15 @@
+.main{
+
+}
+
+.sub{
+    visibility: hidden;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.main:hover .sub{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-220px);
+}

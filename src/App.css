@@ -1,3 +1,4 @@
 .custom-glow {
-    box-shadow: 0 0 30px rgb(67 56 202);
+    box-shadow: 0 0 10px #0ef;
+    border: #0ef;
   }
