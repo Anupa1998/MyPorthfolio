@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import img from '../../assets/Screenshot (53).png'
+import img from '../../assets/Screenshot.png'
 import '../ProjectCard/ProjectCardStyles.css'
 import { HiOutlineExternalLink } from "react-icons/hi";
 
